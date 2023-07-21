@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Иконка в вкладке-->
+    <link rel="shortcut icon" href="img/icon.ico" type="image/x-icon">
+    <!--Название вкладки-->
+    <title>Разработка хайпа</title>
+    <!--Подключение Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!--Подключение в файл *.css-->
+    <link rel="stylesheet" href="/css/main.min.css">
+</head>
+<body>
+    <header>
+        <div class = "container">
+            <div class="header-top">
+                <span class="logo"><b>SereSere</b></span>
+                <div class="menu">Меню</div>
+                <ul>
+                    <li><a href="" onclick="return slowScroll('.header-main')">Интро</a></li>
+                    <li><a href="" onclick="return slowScroll('.features')">Возможности</a></li>
+                    <li><a href="" onclick="return slowScroll('.information')">Помощь</a></li>
+                    <li><a href="" onclick="return slowScroll('.subscribe')">Блог</a></li>
+                </ul>
+            </div>
+
+            <div class="mobile-menu">
+                <ul>
+                    <li><a href="" onclick="return slowScroll('.header-main')">Интро</a></li>
+                    <li><a href="" onclick="return slowScroll('.features')">Возможности</a></li>
+                    <li><a href="" onclick="return slowScroll('.information')">Помощь</a></li>
+                    <li><a href="" onclick="return slowScroll('.subscribe')">Блог</a></li>
+                </ul>
+            </div>
+
+            <div class="header-main">
+                <div class="info">
+                    <h1>Простой, удобный & компактный</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro, eos?</p>
+                    <button type="button" class="download">Скачать сейчас</button>
+                </div>
+                <div class="image">
+                    <img src="/img/main-image.jpg" alt="Фото программы">
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="features">
+        <div class="container">
+            <div class="block">
+                <div class="order-mobile">
+                    <img src="/img/section-image.jpg" alt="Фото программы">
+                </div>
+                <div class="info">
+                    <h2>Все просто</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Eius, voluptatem iusto. Distinctio suscipit porro reiciendis?
+                    Ad, ut eos nam, ipsa repellendus consequuntur eum totam perspiciatis omnis,
+                    natus deserunt accusantium aperiam?</p>
+                </div>
+            </div>
+            <div class="block">
+                <div class="info">
+                    <h2>Все просто <span class="dot">:D</span></h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Eius, voluptatem iusto. Distinctio suscipit porro reiciendis?
+                    Ad, ut eos nam, ipsa repellendus consequuntur eum totam perspiciatis omnis,
+                    natus deserunt accusantium aperiam?</p>
+                </div>
+                <div>
+                    <img src="/img/section-image.jpg" alt="Фото программы">
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <section class="reviews container">
+        <h3>Что говорят кошки<span class="dot">:3</span></h3>
+        <div class="flex">
+            <div>
+                <div class="review">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ipsam mollitia dolorem.</p>
+                    <span class="website">Website.com</span>
+                </div>
+                <div class="avtor">
+                    <img src="img/foto-avtor.jpg" alt="Автор отзыва">
+                    <span class="name">Кошка<br>
+                    <span class="position">Глава кошек</span>
+                    </span>
+                </div>
+            </div>
+            <div>
+                <div class="review main">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ipsam mollitia dolorem.</p>
+                    <span class="website">Website.com</span>
+                </div>
+                <div class="avtor">
+                    <img src="img/foto-avtor.jpg" alt="Автор отзыва">
+                    <span class="name">Кошка<br>
+                    <span class="position">Глава кошек</span>
+                    </span>
+                </div>
+            </div>
+            <div>
+                <div class="review">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ipsam mollitia dolorem.</p>
+                    <span class="website">Website.com</span>
+                </div>
+                <div class="avtor">
+                    <img src="img/foto-avtor.jpg" alt="Автор отзыва">
+                    <span class="name">Кошка<br>
+                    <span class="position">Глава кошек</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="information">
+        <div class="container flex">
+            <div>
+                <div class="block flex">
+                    <div class="info">
+                        <h4>Начни общение</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, ratione.</p>
+                    </div>
+                </div>
+
+                <div class="block flex">
+                    <div class="info">
+                        <h4>Соверши звонок</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, ratione.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="image">
+                <img src="/img/main-image.jpg" alt="Фото программы">
+                <div class="video-play">
+                  <img src="/img/video_circle.png" alt="Запустить видео">
+                </div>
+            </div>
+            <div>
+                <div class="block flex left-align">
+                    <div class="info">
+                        <h4>Начни общение</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, ratione.</p>
+                    </div>
+                </div>
+                <div class="block flex left-align">
+                    <div class="info">
+                        <h4>Соверши звонок</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, ratione.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="subscribe container">
+        <h2>Подпипишись на наши обновление <span class="dot">*_*</span></h2>
+        <p class="info">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique iusto dicta debitis nemo saepe veritatis!</p>
+        <form id="sub_form">
+            <input type="email" id="email" placeholder="Введите вашу почту">
+            <button type="button" id="subscribe">Подписаться</button>
+            <label for="email"></label>
+        </form>
+    </section>
+    <section class="downloads">
+        <div class="container">
+            <div class="logo">:3</div>
+            <h4>Скачайте приложение<span class="dot"> :H</span></h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo a impedit adipisci ipsa suscipit sunt.</p>
+            <a href=""><img src="\img\appimage.png" alt="Скачайте"></a>
+        </div>
+    </section>
+
+    <footer class="container">
+        <ul>
+            <li><a href="" onclick="return slowScroll('.header-main')">Интро</a></li>
+            <li><a href="" onclick="return slowScroll('.features')">Возможности</a></li>
+            <li><a href="" onclick="return slowScroll('.information')">Помощь</a></li>
+            <li><a href="" onclick="return slowScroll('.subscribe')">Блог</a></li>
+            <li><a href="#">Скачать</a></li>
+        </ul>
+    </footer>
+
+    <div id="modal-video">
+        <div class="cls-btn">x</div>
+        <div class="video-modal">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/P9j4QGC46Es"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        </div>
+    </div>
+    <!--jQuery подключение-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <!--JS подключение-->
+    <script src="/js/main-min.js"></script>
+</body>
+</html>
